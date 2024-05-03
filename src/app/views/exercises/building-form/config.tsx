@@ -55,11 +55,11 @@ export const tableHeader: Column[] = [
 
 
 export const actions: IButtonAction[] = [
-    {
-        classes: 'warning',
-        label: 'Edit',
-        name: 'edit',
-    },
+    // {
+    //     classes: 'warning',
+    //     label: 'Edit',
+    //     name: 'edit',
+    // },
     {
         classes: 'danger',
         label: 'Delete',
