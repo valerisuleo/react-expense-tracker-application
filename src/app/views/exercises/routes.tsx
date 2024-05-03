@@ -9,7 +9,7 @@ const routes = () => {
     return (
         <Suspense >
             <Routes>
-                <Route path="/expensetracker" element={<ExpenseTracker />} />
+                <Route path="/" element={<ExpenseTracker />} />
             </Routes>
         </Suspense>
     );

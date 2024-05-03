@@ -18,10 +18,10 @@ const RoutingModule = () => {
                                 {/* Redirect from base path to /games */}
                                 <Route
                                     path="/"
-                                    element={<Navigate replace to="/exercises" />}
+                                    element={<Navigate replace to="/expensetracker" />}
                                 />
                                 <Route
-                                    path="/exercises/*"
+                                    path="/expensetracker/*"
                                     element={<ExercisesRouter />}
                                 />
                             </Routes>
